@@ -43,7 +43,7 @@ public class interfazGrafica extends JFrame implements ActionListener {
         panelExponente.add(inputExponente);
         this.add(panelExponente);
         
-        JLabel respuesta = new JLabel("0");
+        respuesta = new JLabel("0");
         respuesta.setAlignmentX(CENTER_ALIGNMENT);
         this.add(Box.createVerticalStrut(10)); 
         this.add(respuesta);
